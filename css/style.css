@@ -286,7 +286,7 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: 700;
 }
 h2 {
@@ -1656,7 +1656,7 @@ animation-delay: 0s;
     margin-bottom: 15px;
 }
 .section-title h2 {
-	font-size: 48px;
+	font-size: 32px;
 	padding-bottom: 0;
 	margin-bottom: 10px;
 	position: relative;
@@ -7316,10 +7316,11 @@ p.checkout-coupon input[type="text"] {
 .project-detail .pr-ul li {
     display: flex;
     margin-bottom: 15px;
-    float: left;
-width: 50%;
+    /* float: left; */
+/* width: 50%; */
+width: 100%;
 }
-.project-detail .pr-ul .icon i {
+.project-detail .pr-ul .icon i{
     width: 40px;
     height: 40px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
